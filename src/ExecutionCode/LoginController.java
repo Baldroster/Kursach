@@ -24,6 +24,8 @@ public class LoginController {
     private TextField fieldPassword;
     @FXML
     private Label exeptionLabel;
+    @FXML
+    private Label exeptionLabel2;
 
     private  String password ="pass";
     private  String login ="log";
