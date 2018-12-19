@@ -34,7 +34,6 @@ public class LoginController {
     private void clickButtonLogin() throws IOException {
 
         if (fieldLogin.getCharacters().toString().equals(login) && fieldPassword.getCharacters().toString().equals(password)){
-            System.out.println("Gotcha");
 
             Stage stage = (Stage) fieldLogin.getScene().getWindow();
             stage.close();
