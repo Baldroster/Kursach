@@ -26,10 +26,5 @@ public class Main extends Application {
 
 
 
-    public static void printserver () {
 
-        System.out.print ("Запуш меня в Git");
-
-
-    }
 }
